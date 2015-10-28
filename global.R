@@ -1,1 +1,2 @@
-data<-read.csv("places.csv",sep=";",header=F)
+data<-read.csv("data2.csv")
+datasetsNames<-as.character(unique(data[,1]))
